@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+
+    background-image: url("1087639.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.box {
+    font-size: 18px;
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: aquamarine;
+    border: 2px solid white;
+    width: 140px;
+}
+
